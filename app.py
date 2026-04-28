@@ -4,6 +4,12 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+import os
+
+print("ALL ENV:", dict(os.environ))  # temporary
+
+api_key = os.getenv("GROQ_API_KEY")
+print("DEBUG KEY:", api_key)
 app = Flask(__name__)
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
