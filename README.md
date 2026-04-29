@@ -90,6 +90,9 @@ GROQ_API_KEY=your_groq_api_key_here
 > Get your free Groq API key at [console.groq.com](https://console.groq.com)
 
 ---
+![Olakh Banner](https://i.imgur.com/placeholder.png)
+🔗 **Live Demo:** [olakh.onrender.com](https://olakh.onrender.com)
+
 
 ## Built By
 
